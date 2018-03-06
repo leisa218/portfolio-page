@@ -1,0 +1,101 @@
+@charset "UTF-8";
+// Colors
+@import "components/color";
+
+// Variables;
+@import "components/variables";
+
+// General
+body{
+}
+
+// Helper
+.text-black{
+	color:$black;
+}
+
+// Layout
+html, body{
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  color:$white;
+}
+
+h1, h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+.block{
+	position:relative;
+	min-height:100%;
+	overflow:hidden;
+}
+footer{
+	padding:15px 0;
+}
+ul.footer-menu li a{
+	padding: 5px 0;
+	display:inline-block;
+	min-height:35px;	
+}
+
+// Udacity Logo
+.u-logo{
+	padding-left:5px;
+}
+
+// Navbar
+a.button-collapse{
+	position:absolute;
+	left:20px;
+}
+.pinned{
+	z-index:10;
+}
+
+// User View
+.user-view a{
+	color:#333;
+}
+
+// Tap Target
+a#tapbox__one{
+	position:fixed;
+	bottom:5px;
+	right:20px;
+}
+
+// Social Icons
+
+a.social svg{
+   position: relative;
+   left: -5px;
+   top: 6px;
+}
+a.btn-large.social svg{
+   position: relative;
+   top: 7px;
+   left:0px;
+}
+
+
+// Responsive
+@media #{$small-and-down} {
+	h2{
+		font-size:2.56rem;
+	}
+	h3{
+		font-size:1.92rem;
+	}
+}
+
+@media #{$medium-and-up} {
+
+}
+@media #{$large-and-up} {
+
+}
+
+       
+
+
+
