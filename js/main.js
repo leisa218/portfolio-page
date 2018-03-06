@@ -5,7 +5,7 @@ jQuery(function( $ ){
         var $this = $(this);
         var $target = $('#' + $(this).attr('data-target'));
         $this.pushpin({
-          top: $target.offset().top + 50,
+          top: $target.offset().top + 60,
           bottom: $target.offset().top + $target.outerHeight() - $this.height()
       });
     });
